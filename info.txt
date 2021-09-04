@@ -1,0 +1,8 @@
+Packages used:- @material-ui/core , @material-ui/icons, react-router-dom, bootstrap.
+ 
+ left bar links - If any link is clicked other than "travel" nothing get displayed in center component.
+                This functionality is achieved by passing props in the route.
+
+
+center_left_links- If any other link is clicked other than "features" nothing get displayed in center_right_component.
+                    This functionality is achieved by fetching  params in center component and passing it as a props to center_right_component.
