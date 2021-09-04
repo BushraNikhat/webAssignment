@@ -14,7 +14,7 @@ const Leftbar = () => {
               <Assessment className="leftbar_icons" />
               <span>Events</span>
             </NavLink>
-            <NavLink to="/travel" className="icon_container d-flex align-iteNavLinks-center flex-column">
+            <NavLink to="/travel" className="icon_container d-flex align-items-center flex-column">
               <Group className="leftbar_icons" />
               <span>Travels</span>
             </NavLink>
