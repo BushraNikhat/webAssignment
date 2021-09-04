@@ -17,13 +17,13 @@ const App = () => {
      <BrowserRouter>
      <Leftbar/>
        <Switch>
-         <Route exact path="/"  render={(props) => (
+         <Route exact path="/https://bushranikhat.github.io/webAssignment/"  render={(props) => (
           <Center {...props} empty={true} />
   )} />
-         <Route exact path="/travel" render={(props) => (
+         <Route exact path="https://bushranikhat.github.io/webAssignment/travel" render={(props) => (
           <Center {...props} empty={false} />
   )}/>
-         <Route path="/travel/:route" render={(props) => (
+         <Route path="https://bushranikhat.github.io/webAssignment/travel/:route" render={(props) => (
           <Center {...props} param={true} />
   )}/>
          
